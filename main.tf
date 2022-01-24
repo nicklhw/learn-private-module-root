@@ -12,7 +12,7 @@ terraform {
     organization = "nw-tfc-learn"
 
     workspaces {
-      name = "sentinel-td-demo"
+      name = "sentinel-td-demo-app1"
     }
   }
 }
@@ -33,6 +33,6 @@ module "s3-webapp" {
   region = "us-east-1"
   prefix = "dev"
   #  prefix  = join("_", [var.prefix, upper(random_pet.pet_name.id)])
-  mal_code = "app5"
+  mal_code = "app1"
   version  = "1.0.2"
 }
