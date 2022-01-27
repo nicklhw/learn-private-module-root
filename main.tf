@@ -33,6 +33,6 @@ module "s3-webapp" {
   region = "us-east-1"
   prefix = "dev"
   #  prefix  = join("_", [var.prefix, upper(random_pet.pet_name.id)])
-  mal_code = "app1"
+  mal_code = var.mal_code
   version  = "1.0.2"
 }

@@ -1,3 +1,3 @@
-variable "mal_codes" {
-  description = "MAL codes"
+variable "mal_code" {
+  default = "app1"
 }
