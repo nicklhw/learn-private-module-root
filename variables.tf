@@ -1,3 +1,3 @@
-variable "mal_code" {
+variable "aml_malcode" {
   default = "app1"
 }
